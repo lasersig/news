@@ -1,4 +1,4 @@
-# 📰 Flutter News App
+# Flutter News App
 
 A Flutter application that displays the latest news articles using the **Clean Architecture** approach and **SOLID** principles.
 
@@ -6,7 +6,7 @@ The app fetches news from a public API and displays them in a list view with tit
 
 ---
 
-## 📂 Folder Structure
+## Folder Structure
 
 lib/
 ├── core/                # Shared helpers, constants, and utilities
@@ -24,7 +24,7 @@ lib/
 │    └── state/          # State management (Bloc/Provider)
 └── main.dart            # App entry point
 
-## 🛠 How SOLID and Clean Architecture Were Applied
+## How SOLID and Clean Architecture Were Applied
 
 ### SOLID Principles
 
@@ -48,7 +48,7 @@ lib/
 
 ---
 
-## 🏗 Clean Architecture
+## Clean Architecture
 
 - **Domain Layer**
     - Core business logic: Entities (`Article`), Use Cases (`GetNewsArticles`), Repository interfaces.
